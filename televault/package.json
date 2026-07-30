@@ -1,0 +1,22 @@
+{
+  "name": "televault",
+  "version": "1.0.0",
+  "description": "Private Telegram-based personal cloud storage bot (backup, gallery lock, project archive) for a single owner.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "mongoose": "^8.5.0",
+    "dotenv": "^16.4.5",
+    "winston": "^3.13.0",
+    "mime-types": "^2.1.35",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
