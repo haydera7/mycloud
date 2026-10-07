@@ -28,7 +28,7 @@ async function setProject(fileId, projectId) {
   return File.findByIdAndUpdate(fileId, { project: projectId }, { new: true });
 }
 
-async function setAlbum(fileId, albumId) {
+async function setAlbum(fileId, albumId){
   return File.findByIdAndUpdate(fileId, { album: albumId }, { new: true });
 }
 
